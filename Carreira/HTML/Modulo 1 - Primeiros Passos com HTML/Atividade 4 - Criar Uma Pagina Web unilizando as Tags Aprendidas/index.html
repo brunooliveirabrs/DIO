@@ -1,0 +1,165 @@
+<html>
+    <head><Title>Modulo 1 - Primeiros Passos com HTML</Title></head>
+    <body>
+        <h1><u>Modulo 1 - Primeiros Passos com <abbr title=" Linguagem de Marcação de Hipertexto">HTML</u></h1>
+        <hr />
+        <h2>Indice</h2>
+        <ul>
+            <li><a href="#historia">Hitória da computação</a></li>
+            <li><a href="#client">Client-side</a></li>    
+            <li><a href="#server">Server-side</a></li>
+            <li><a href="#comunicacao">Comunicação</a></li>
+            <li><a href="#estrutura">Estrutura básica</a></li>
+            <li><a href="#ordenada">Lista ordenada</a></li>
+            <li><a href="#nordenada">Lista não ordenada</a></li>
+            <li><a href="#tag_texto">Tags de texto</a></li>
+            <li><a href="#formatacao">Tags de formatação de texto</a></li> 
+            <li><a href="#referencia">Referência</a></li>
+        </ul>
+        <hr/>
+        <h2 id="historia"><u><i></i>História da Computação</u></h2>
+        <p>
+            História dos computadores e da internet, inicialmente sempre esteve ligada a guerra, na corrida da comunicação a guerra foi uma grande aliada,
+            no desenvolvimento de novas tecnologias, sendo Estados unidos e União soviética os maiores responsáveis pelo avanço durante a 2<sup>ª</sup> guerra mundial.
+        </p>
+        <p>
+            Tim Berners-Lee, o criador do 1<sup>º</sup> navegador o World Wide Web <sub>w.w.w</sub>, e também foi o criar dor da linguagem de marcação HTML, que foi um modo de padronizar
+            como os sites seria construídos, para que as coisas não saíssem do controle, já que cada instituição estava criando um modo de se comunicar internamente.
+        </p>
+        <hr />
+        <h2><u>Client-side e Server-side</u></h2>
+            <h3 id="client"><i>Client-side</i></h3>
+        <p>
+            Cliente-side, não é nada mais do que o LADO DO CLIENTE, tudo que é executado levando em consideração o equipamento do cliente, é considerado client-side,
+            na programação temos programas específicos que rodam em determinada tecnologia, como por exemplo para rodar o HTML e CSS do lado do cliente usamos o navegador que
+            interpreta e traz uma interface gráfica e amigável ao usuário. Ainda temos a linguagem de programação, JavaScript, que roda tanto lado cliente quanto do lado
+            do servidor, entretanto o modo que essa tecnologia é interpretada em ambos os lados é diferente, mesmo que usem o mesmo interpretador o V8-ENGINE, no lado
+            cliente quem usa esse interpretador é o navegador.    
+        </p>
+            <h3 id="server"><i>Server-side</i></h3>
+        <p>
+            Server-side, significa LADO DO SERVIDOR, é tudo que é servido ao cliente, toda APLICAÇÃO WEB, precisa ser armazenada em algum lugar, isso ocorre no servidor,
+            que tem a função de literalmente servir o cliente com a aplicação solicitada, exemplo disso é quando acessamo o Google, o site do Google está armazenado no 
+            servidor do Google. Falando de programação do lado do servidor, usamos basicamente linguagens diferentes para manipular o servidor, as chamadas linguagens
+            BACK-END, de modo geral temos varia linguagens que são usadas, como,PHP, JS, C#, Java Ruby, entre outras, entretanto a mais utilizada atualmente (no ano de 2023),
+            é o JavaScript, que utiliza o Node JS, para rodar o interpretador V8-ENGINE.
+        </p>
+            <h4 id="comunicacao"><i>Comunicação</i></h4>
+                <p>
+                    De modo geral a comunicação entre Cliente e Servidor, utiliza a internet para que ocorra. sendo necessário uma requisição do lado cliente.
+                </p>
+            <h5<strong>Requisição do cliente servidor</strong></h5>
+                <p>
+                    Cliente acessá o navegador, digita o endereço correspondente ao site que deseja, o navegador direciona para servidor, a informação é
+                    processada pelo servidor, que envia uma copia da informação para o navegar em forma de texto, que por sua vez interpreta a informação, e converte
+                    em modo gráfico.               
+                </p>
+        <hr />
+        <h2 id="estrutura"><u>Estrutura básica do HTML</u></h2>
+            <p>
+                A estrutura básica do HTML é dividida em três partes, sendo elas as tags "html", "head" e "body".
+                <h3><strong>Tag html</strong></h3>
+                    <p>
+                        Usado como um contentor que organiza de forma clara onde é o inicio e o fim da do código. 
+                    </p>
+                <h3><strong>Tag head</strong></h3>
+                    <p>
+                        A tag head, é a cabeça do codigo, é onde se encontra as configurações e conexões que o documento vai receber.
+                    </p>
+                <h3><strong>Tag body</strong></h3>
+                    <p>
+                        A tag body, é o corpo do site, onde se encontra toda informação visível ao usuário final.
+                    </p>
+            </p>   
+            <hr />     
+            <h2 id="ordenada"><u>Lista Ordenada</u></h2>
+                <p>
+                    Como o proprio nome já diz, lista ordelada é um lista organizada em orde numérica, sendo que o navegador interpreta a ordem do jeito que é inserido.
+
+                </p>
+            <h2 id="nordenada"><u>Lista não Ordenada</u></h2>
+                <p>
+                    Diferente da lista ordenada, a lista não ordenada traz uma no inicio de cada item um caractere, mas de mesmo modo que a ordenada, a ordem dos itens
+                    é expressada da mesma maneira na ordem que é colocada.
+                </p>
+            <h3>Tag li</h3>
+                <p>
+                    A Teg utilizada neste caso é ol, que informa ao navegador que os itens entre a tag ol de abertura e a teg ol de fechamento é uma lista ordenada.
+                    Cada item dentro da lista é contido por uma teg de item que é representado li.
+                </p>
+            <hr />
+           <h2 id="tag_texto"><u>Tags de Texto</u></h2>
+            <p>
+                As tags de texto são destinadas a formatação, sendo que ela pode ser usada em palavras separadas ou até em textos inteiros, isso depende de onde é
+                colocado a teg de abertura e a teg de fechamento. Vejamos alguns exemplos:
+                    <p>
+                        <h3><i>Tags h1, h2, h3, h4, h5 e h6</i></h3>
+                        <p>Tag usada para titulo e subtitulo, sendo que vai de h1 até h6, em ordem crescente, sendo o maior o h1 e o menor o h6, veja os exemplos:
+                            <ol>
+                                <li><h1>h1</h1></li>
+                                <li><h2>h2</h2></li>
+                                <li><h3>h3</h3></li>
+                                <li><h4>h4</h4></li>
+                                <li><h5>h5</h5></li>
+                                <li><h6>h6</h6></li>
+                                <li><h6>não existe a teg <del>h7</del> em diante</h6></li>
+                            </ol>
+                        </p>
+                    
+                    </p>
+                    <p>
+                        <h3><i>Tag p</i></h3>
+                        <p>
+                            Tag T, tag paragrafo, tem a função realizar a separação dos textos, sendo que por padrão há uma espaçamento dentro do navegador.
+                        </p>
+                    </p>        
+            </p> 
+            <hr />
+            <h2 id="formatacao"><u>Tags de formatação de texto</u></h2>
+                    <h3><i>Tag mark</i></h3>
+                    <p>
+                        Realiza um destaque na letra como se fosse um marca texto, exemplo:
+                        <h4><mark>mark</mark></h4>
+                    </p>
+                <p>
+                    <h3><i>Tag small</i></h3>
+                    <p>
+                        A teg small tem por objeto diminuir o tamanho do texto, entre a teg de abertura e a teg de fechamento, exemplo:
+                        <h4><small>Texto destinado a </small>exemplificação da tag small.</h4>
+                    </p>
+                </p>
+                <p>
+                    <h3><i>Tag i</i></h3>
+                    <p>
+                        A teg i transforma o texto entre a teg de abertura e fechamento em itálico, deixando o texto inclinado, exemplo:
+                        <h4>Texto destinado a <i>exemplificar a teg i.</i></h4>
+                    </p>    
+                </p>
+                <p>
+                    <h3><i>Tag u</i></h3>
+                    <p>
+                        A teg u passa um tracejado abaixo do texto que estão entre a teg de abertura e a teg de fechamento, ex:
+                        <h4><u>Texto destinado a </u>exemplificar a teg u.</h4>     
+                    </p>
+                </p>
+                <p>
+                    <h3><i>Teg u</i></h3>
+                    <p>
+                        A teg u torna o texto que esta entre a teg de abertura e a teg de fechamento destacado em negrito, exemplo:
+                        <p><strong>Texto destinado a </strong>exemplificar a teg strong
+                        </p>
+                    </p>
+                </p>
+
+        <blockquote>        
+           <h2 id="referencia"><i><u>Rência das Teg sugeridas e aplicadas neste documento.</u></i></h2>
+             <ul>
+                <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/del"  target="_blank">Tag [del]</a></li>
+                <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/abbr" target="_blank">Tag [abbr]</a></li>
+            </ul>
+        </blockquote>
+    </body>
+</html>
+
+<!-- no exercício proposto foi solicitado a teg <font> entretanto a mesma foi descontinuada no html5, por isso não será usada-->
+<!--no exercício proposto é solicitado a teg <p> como uma teg nova, entretanto a mesma foi ensinada anteriormente e apresentada neste documento-->

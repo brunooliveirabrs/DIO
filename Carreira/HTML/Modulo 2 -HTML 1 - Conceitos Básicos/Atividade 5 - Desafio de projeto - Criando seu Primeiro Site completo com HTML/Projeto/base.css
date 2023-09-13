@@ -1,0 +1,63 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(65, 64, 64);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(133, 131, 131);
+    min-height: 150px;
+}
+.content {
+    background-color: rgb(202, 198, 198);
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(231, 229, 229);
+    min-height: 150px;
+}
+
+.tratamentos{
+    display:flex;
+    text-align: center;
+}
+.protoc{
+    padding-right:15px;
+    width: 1000px;
+}
+.implante{
+    padding-right: 15px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0px;
+    text-align: center;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <formm method="get">
+        <h3>Cadastro de acesso</h3>
+        <label>Nome:</label><input type="text" name="name"><br><br>
+        <label>Idade:</label><input type="number" name="age"><br><br>
+        <label>Senha</label><input type="password" name="password"><br><br>
+        <button type="submit">Enviar</button>
+    </form>
+    <form method="get">
+        <h3>Pizza</h3>
+        <p>Selecione o sabor da sua pizza</p>
+        <input type="checkbox" name="sabor[]" value="Calabresa"> <label>Calabresa: </label>
+        <input type="number"><br>
+        <input type="checkbox" name="sabor[]" value="Marguetita"> <label>Marguerita: </label>
+        <input type="number"><br>
+        <input type="checkbox" name="sabor[]" value="Portuguêsa"> <label>Portuguêsa: </label>
+        <input type="number"><br>               
+        <input type="checkbox" name="sabor[]" value="Franco com catupiry"> <label>Frango com catupiry: </label>
+        <input type="number"><br>
+        <input type="checkbox" name="sabor[]" value="4 Queijos"> <label>4 queijos: </label>
+        <input type="number"><br>
+        <input type="checkbox" name="sabor[]" value="oliveira"> <label>Pizza da casa: </label>
+        <input type="number"><br>
+        <h4>Borda</h4>
+        <p>Borda Recheada?</p> 
+        <input type="radio" name="borda" value="sim"><lable>SIM</lable><br>
+        <input type="radio" name="borda" value="não"><label>NÃO</label><br><br>  
+        <h4>Comentario</h4>
+        <p><strong>Solicitações e alterações:/strong></p>
+        <textarea name="comentario" cols="30" rows="5"></textarea><br><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
