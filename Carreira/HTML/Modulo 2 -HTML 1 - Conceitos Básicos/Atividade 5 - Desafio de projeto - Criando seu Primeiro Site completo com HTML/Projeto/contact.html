@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <link rel="stylesheet" href="base.css">
+
+    <style>
+        table{
+            border: none;
+        }
+    </style>
 </head>
 <body>
     <div class="wrapper">
@@ -24,12 +30,59 @@
 
         <div class="main">
             <div class="header">
-                Header
+                <img src="/Carreira/HTML/Modulo 2 -HTML 1 - Conceitos Básicos/Atividade 5 - Desafio de projeto - Criando seu Primeiro Site completo com HTML/Projeto/img/Contato.jpg" alt="">
+                <a href="index.html"><h2 style="color: white; padding-left: 70px;"><u><i>ODONTO PAC</i></u></h2></a>
                 <!-- Aqui vai o seu header -->
             </div>
     
             <div class="content">
-                Content
+                <div>
+                    <h3><u>Contatos</u></h3>
+                    <table class="tb_contato" summary="Tabela de contatos" border="1px" width="500px" cellspacing="10px">
+                        <thead>
+                            <th>Telefone celular</th>
+                            <th>(61) 3411-1221</th>
+                            <tr>
+                                <th>whatsapp</th>
+                                <th>(61) 3411-1221</th>
+                            </tr>
+                            <tr>
+                                <th>Email</th>
+                                <th>contato@odontopac.com.br</th>
+                            </tr>
+                        
+                    </table>
+                </div>
+                <div>
+                    <h3><u>Solicite seu orçamento</u></h3>
+                    <table border="1px" cellspacing="10px">
+                    <form method="get">
+                        <thead>
+                            <th>Nome:</th>
+                            <th><input type="text" name="name"></th>
+                        </thead>
+                        <thead>
+                            <th>Email:</th>
+                            <th><input type="email" name="mail"></th>
+                        </thead>
+                        <thead>
+                            <th>Assunto:</th>
+                            <th><input type="text" name="subject"></th>
+                        </thead>
+                        <thead>
+                            <th>Comentario</th>
+                            <th><textarea name="comment" cols="20" rows="1"></textarea></th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><button type="submit">Enviar Formulário</button></td>
+                                <td align="center"><button type="reset">Limpar Formulário</button></td>
+                            </tr>
+                        </tbody>
+
+                    </form>
+                    </table>
+                </div>    
                 <!-- Aqui vai o seu conteúdo -->
             </div>
     
